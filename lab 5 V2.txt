@@ -17,7 +17,7 @@ def knn_classify(train_points, train_labels, test_point, k):
     return most_common_label
 
 test_points = data_points[50:]
-test_labels = data_points[50:]
+train_points = data_points[:50]
 
 k_values = [1, 2, 3, 4, 5, 20, 30]
 
